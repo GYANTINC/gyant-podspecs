@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target   = '10.0'
   s.ios.vendored_frameworks = 'GyantChatSDK.framework'
   
-  s.dependency 'App'
-  s.dependency 'Flutter'
+  s.dependency 'App', "#{s.version}"
+  s.dependency 'Flutter', "#{s.version}"
 end 
